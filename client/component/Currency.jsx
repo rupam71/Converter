@@ -11,7 +11,7 @@ import Button from "@mui/material/Button";
 const Currency = () => {
   const [list, setlist] = useState([]);
   const [fromTemp, setfromTemp] = useState("");
-  const [fromMeasure, setfromMeasure] = useState(0);
+  const [fromMeasure, setfromMeasure] = useState(1);
   const [toTemp, settoTemp] = useState("");
   const [toMeasure, settoMeasure] = useState(0);
 
