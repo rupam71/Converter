@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5"
+  },
+  "name": "bb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "concurrently \"cd client && npm i && npm run build\" \"cd server && npm i\"",
+    "start": "concurrently \"cd client && npm run start\" \"cd server && node index.js \"",
+    "bs" : "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
